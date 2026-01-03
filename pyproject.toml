@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text_ori_cls"        
+version = "0.0.1"
+authors = [
+  { name="Htring", email="1129501586@qq.com" },
+]
+description = "文档图片方向分类"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+"loguru==0.7.3",
+"numpy==1.26.4",
+"onnxruntime>=1.18.1",
+"opencv-python-headless==4.9.0.80",
+"pillow>=12.1.0",
+"ujson>=5.11.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Htring/text_ori_cls"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.data-files]
+models = ["models/*"]
