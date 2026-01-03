@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import time
 from engine import OrtInferSession
-from utils import ClsPostProcess, load_img2np
+from utils import ClsPostProcess
 
 
 class TextPicOriCLS(object):
