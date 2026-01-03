@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+PP-LCNet_x1_0_*
+
 # Distribution / packaging
 .Python
 build/
