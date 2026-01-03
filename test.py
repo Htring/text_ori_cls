@@ -10,7 +10,7 @@ if __name__ == """__main__""":
         "mean": [0.485, 0.456, 0.406],
         "std": [0.229, 0.224, 0.225],
         "label_list": ["0", "90", "180", "270"],
-        "use_cuda": True,
+        "use_cuda": False,
         "image_shape": [3, 224, 224]
     }
     # model = "PP-LCNet_x1_0_textline_ori_infer/inference.onnx"

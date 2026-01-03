@@ -1,0 +1,6 @@
+loguru==0.7.3
+numpy==1.26.4
+onnxruntime>=1.18.1
+opencv-python==4.9.0.80
+pillow>=12.1.0
+ujson>=5.11.0

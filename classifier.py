@@ -6,7 +6,6 @@ import time
 from engine import OrtInferSession
 from utils import ClsPostProcess
 
-
 class TextPicOriCLS(object):
     def __init__(
         self,
