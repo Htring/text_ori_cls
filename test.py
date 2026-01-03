@@ -4,15 +4,7 @@ import os
 
 
 if __name__ == """__main__""":
-
-    model = "./PP-LCNet_x1_0_doc_ori_infer/inference.onnx"
-    param = {
-        "mean": [0.485, 0.456, 0.406],
-        "std": [0.229, 0.224, 0.225],
-        "label_list": ["0", "90", "180", "270"],
-        "use_cuda": False,
-        "image_shape": [3, 224, 224]
-    }
+    from config import model_param
     # model = "PP-LCNet_x1_0_textline_ori_infer/inference.onnx"
     # param = {
     #     "mean": [0.485, 0.456, 0.406],
@@ -21,7 +13,7 @@ if __name__ == """__main__""":
     #     "use_cuda": True,
     #     "image_shape": [3, 80, 160]
     # }
-    classifier = TextPicOriCLS(model, **param)
+    classifier = TextPicOriCLS(**model_param)
     images = []
     file_paths = []
     for file in os.listdir("./test_pngs"):
