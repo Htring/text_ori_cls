@@ -13,3 +13,7 @@ page html:https://paddlepaddle.github.io/PaddleX/3.3/pipeline_usage/tutorials/oc
 
 page html: https://paddlepaddle.github.io/PaddleX/latest/module_usage/tutorials/ocr_modules/textline_orientation_classification.html#_3
 
+## reference
+
+1. paddlex: https://github.com/PaddlePaddle/PaddleX
+2. RapidOCR: https://github.com/RapidAI/RapidOCR
